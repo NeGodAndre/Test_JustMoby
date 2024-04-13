@@ -2044,7 +2044,7 @@ GameObject:
   - component: {fileID: 800499296}
   - component: {fileID: 800499297}
   m_Layer: 5
-  m_Name: MainTZ_kak_v_tz
+  m_Name: MainTZ
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2650,7 +2650,7 @@ GameObject:
   - component: {fileID: 1468970719}
   - component: {fileID: 1468970720}
   m_Layer: 5
-  m_Name: MainTZ_variacia
+  m_Name: MainTZ_showItem
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
