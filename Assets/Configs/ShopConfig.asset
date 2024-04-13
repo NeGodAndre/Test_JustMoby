@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b55e14e93aca452ba57d1095d68a141c, type: 3}
+  m_Name: ShopConfig
+  m_EditorClassIdentifier: 
+  ShopItems:
+  - Id: shopItem0
+    Name: "\u0417\u0430\u0433\u043E\u043B\u043E\u0432\u043E\u043A0"
+    Description: "\u041E\u043F\u0438\u0441\u0430\u043D\u0438\u04350"
+    Items:
+    - coin
+    - key
+    - cup
+    - cup
+    - cup
+    - drag
+    Cost: 499
+    NewCost: 449
+    Discount: 10
+    IdIcon: shopItem0
+  - Id: shopItem1
+    Name: "\u0417\u0430\u0433\u043E\u043B\u043E\u0432\u043E\u043A1"
+    Description: "\u041E\u043F\u0438\u0441\u0430\u043D\u0438\u04351"
+    Items:
+    - coin
+    - coin
+    - cup
+    - drag
+    Cost: 499
+    NewCost: 449
+    Discount: 10
+    IdIcon: shopItem1
+  - Id: shopItem2
+    Name: "\u0417\u0430\u0433\u043E\u043B\u043E\u0432\u043E\u043A2"
+    Description: "\u041E\u043F\u0438\u0441\u0430\u043D\u0438\u04352"
+    Items:
+    - drag
+    - drag
+    - drag
+    Cost: 499
+    NewCost: 449
+    Discount: 10
+    IdIcon: shopItem2
+  Items:
+  - Id: coin
+    Count: 10
+  - Id: key
+    Count: 120
+  - Id: cup
+    Count: 125
+  - Id: drag
+    Count: 152
+  LimitationItems: {x: 3, y: 6}
